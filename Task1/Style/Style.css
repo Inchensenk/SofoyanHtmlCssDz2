@@ -1,0 +1,28 @@
+div {
+    background-color: #ed9eae;
+}
+
+span {
+    background-color: #9e354a;
+}
+
+
+ol {
+    list-style: none;
+    counter-reset: count;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px;
+}
+
+li {
+    background-color: #c66376;
+    color: white;
+    padding-left: 6px;
+}
+
+span::before {
+    counter-increment: count;
+    content: counters(count, "")". ";
+    background-color: #c66376;
+}

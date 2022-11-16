@@ -1,0 +1,17 @@
+div {
+    background-color: #f5f5f5;
+    padding: 5%;
+}
+
+.grayblue {
+    background-color: #a5ccda;
+}
+
+.grayRow {
+    background-color: #e2e2e2;
+    text-decoration: line-through;
+}
+
+.lightBlue {
+    background-color: #add8e6;
+}
